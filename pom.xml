@@ -66,12 +66,31 @@
 			<artifactId>slf4j-log4j12</artifactId>
 			<version>1.7.7</version>
 		</dependency>
-		
-	<dependency>
-		<groupId>org.slf4j</groupId>
-		<artifactId>slf4j-log4j12</artifactId>
-		<version>1.7.7</version>
-	</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.7.7</version>
+		</dependency>
+	<!-- Spring -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>4.1.0.RELEASE</version>
+		</dependency>
+<!-- Spring ORM relacionamento e mapeamento -->
+<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-orm</artifactId>
+			<version>4.1.0.RELEASE</version>
+		</dependency>
+<!-- Sprint contexto -->
+<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-tx</artifactId>
+			<version>4.1.0.RELEASE</version>
+		</dependency>
+
 	</dependencies>
 
 </project>
